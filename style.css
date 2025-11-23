@@ -177,7 +177,7 @@ footer .footer-flex .foot-menu ul li a:hover {
 footer .footer-flex .foot-contacts p,
 footer .footer-flex .foot-contacts a {
   text-decoration: none;
-  color: var(--footer-text-color);
+  color: var(---text-color);
   margin-bottom: 5px;
   transition: color 0.3s ease;
 }
@@ -194,4 +194,85 @@ footer .footer-flex .foot-contacts a:hover {
 
 footer:hover {
   background-color: var(--footer-bg-color);
+}
+
+.end-header {
+  height: 700px;
+}
+.end-header .leg-box {
+  width: 90%;
+  border: 2px solid var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.end-header .leg-box .leg-one {
+  width: 40%;
+}
+.end-header .leg-box .leg-one p, .end-header .leg-box .leg-one a {
+  text-decoration: none;
+  color: var(--black-color);
+  margin-bottom: 5px;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+.end-header .leg-box .leg-one p img, .end-header .leg-box .leg-one a img {
+  width: 20px;
+  margin: 5px;
+  filter: brightness(40) invert(1);
+}
+.end-header .leg-box .leg-one p {
+  margin-left: -40px;
+}
+.end-header .leg-box .leg-one iframe {
+  margin-left: -40px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.end-header .leg-box .leg-one a:hover {
+  text-decoration: underline;
+  color: var(--foni-guyn);
+}
+.end-header .leg-box .leg-two {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.end-header .leg-box .leg-two .leg-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.end-header .leg-box input,
+.end-header .leg-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.end-header .leg-box textarea {
+  height: 200px;
+}
+.end-header .leg-box button {
+  background: var(--accent);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 1s;
+}
+.end-header .leg-box button:hover {
+  background-color: #161616;
+  color: #700014;
 }/*# sourceMappingURL=style.css.map */
