@@ -219,7 +219,7 @@ footer {
             p,
             a {
                 text-decoration: none;
-                color: var(--footer-text-color);
+                color: var(---text-color);
                 margin-bottom: 5px;
                 transition: color 0.3s ease;
 
@@ -240,4 +240,93 @@ footer {
 
 footer:hover {
     background-color: var(--footer-bg-color);
+}
+
+.end-header{
+    height: 600px;
+    margin-top: 30px;
+.leg-box{
+    width: 90%;
+    // border: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 30px;
+     .leg-one{
+        width: 40%;
+        // margin-left: 180px;
+
+            p,a{
+                text-decoration: none;
+                color: var(--black-color);
+                margin-bottom: 5px;
+                font-size: 18px;
+                transition: color 0.3s ease;
+                  
+
+                img {
+                    width: 20px;
+                    margin: 5px;
+                    filter: brightness(40) invert(1);
+                }
+            }
+            p{
+                margin-left: -40px;
+            }
+            iframe{
+                margin-left: -40px;
+                margin-top: 10px;
+                border-radius: 20px;
+            }
+
+          
+        }
+
+         .leg-two{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            .leg-form{
+                  width: 300px;
+  padding: 20px;
+//   box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+            }
+         }
+
+ input,
+ textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  font-size: 14px;
+}
+textarea{
+    height: 200px;
+}
+button{
+      background: var(--accent);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 1s;
+  &:hover{
+background-color: #F2F2ED;
+color: #700014;
+border: 2px solid #700014;
+  }
+}
+     }
 }
