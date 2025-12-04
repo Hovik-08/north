@@ -259,4 +259,4 @@
     { "id": 249, "name": "Մինի շոկոլադե բոնբոն", "price": 300, "description": "Փոքր շոկոլադե բонբոն", "image": "mini_choco_bonbon.jpg" },
     { "id": 250, "name": "Մինի նուշ բոնբոն", "price": 300, "description": "Փոքր նուշով бонբон", "image": "mini_nut_bonbon.jpg" }
   ]
-}
+}   
