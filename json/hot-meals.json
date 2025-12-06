@@ -1,6 +1,6 @@
 {
   "Տաքուտեստներ": [
-    { "id": 51, "name": "Խոզի կաբաբ", "price": 2500, "description": "Անգլիական կաբաբ, տաք հացի հետ", "image": "pork_kebab.jpg" },
+    { "id": 51, "name": "Խոզի կաբաբ", "price": 2500, "description": "Անգլիական կաբաբ, տաք հացի հետ", "image": "https://natashaskitchen.com/wp-content/uploads/2018/05/Grilled-Pork-Tenderloin-Kebabs-2.jpg" },
     { "id": 52, "name": "Հավի շաշլիկ", "price": 2200, "description": "Հավի միս կրակի վրա թխած", "image": "chicken_shashlik.jpg" },
     { "id": 53, "name": "Բեկոնով սենդվիչ", "price": 1800, "description": "Տաք սենդվիչ բեկոնով", "image": "bacon_sandwich.jpg" },
     { "id": 54, "name": "Լազանյա", "price": 2400, "description": "Թարմ լազանյա մսով և բանջարեղենով", "image": "lasagna.jpg" },
